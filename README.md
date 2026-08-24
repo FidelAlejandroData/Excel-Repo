@@ -1,84 +1,174 @@
 # Excel Data Analysis Project – Data Technician Bootcamp
 
+In this repository, I showcase the Excel workbook and supporting materials I completed during the **Week 1 Excel module of the Data Technician Bootcamp**.
+
 ## 📊 Project Overview
 
-This project was completed as part of a **Data Technician Bootcamp**, focusing on using Microsoft Excel to clean, analyse, summarise, and visualise retail and sales data.
+During this project, I used **Microsoft Excel** to clean, organise, analyse, summarise and visualise structured data.
 
-The project involved working with retail sales, customer, student performance, and bike sales datasets. I applied Excel functions and analytical techniques to identify patterns, calculate key metrics, summarise datasets, and communicate findings through tables, PivotTables, and charts.
+I worked with **retail sales, customer, student performance and bike sales datasets**, applying Excel formulas and analytical techniques to calculate key metrics, identify patterns and communicate findings through tables, PivotTables and charts.
 
-## 🛠️ Skills Demonstrated
+Throughout the project, I progressed from basic spreadsheet organisation and formulas to more advanced analysis using customer segmentation, PivotTables, conditional logic, slicers and interactive visualisations.
 
-* **Data preparation and organisation**
+## 🔄 My Analysis Workflow
 
-  * Creating and formatting Excel Tables
-  * Filtering and sorting data
-  * Working with structured data
-  * Checking and correcting data types
-  * Identifying and handling hidden spaces in data
+```mermaid
+flowchart LR
+    A[📁 Raw Data] --> B[🧹 Clean & Organise]
+    B --> C[🧮 Apply Excel Formulas]
+    C --> D[📊 Build PivotTables]
+    D --> E[🔎 Filter & Explore]
+    E --> F[📈 Create Visualisations]
+    F --> G[💡 Identify Insights]
+```
 
-* **Excel formulas and functions**
+## 🛠️ Skills I Demonstrated
 
-  * `SUM` – calculating totals
-  * `SUMIF` / `SUMIFS` – calculating totals based on criteria
-  * `AVERAGE` / `AVERAGEIF` / `AVERAGEIFS` – calculating averages
-  * `DATE`, `MONTH` and `YEAR` – working with dates
-  * `UNIQUE` – identifying unique values
-  * `VLOOKUP` – retrieving related information
-  * `SWITCH` – categorising data based on conditions
-  * Additional functions including `IF`, `IFS`, `COUNT`, `COUNTA`, `LEFT`, `TEXTJOIN` and `CONCAT`
+### 🧹 Data Preparation & Organisation
 
-* **Data analysis**
+I developed practical experience in:
 
-  * Creating PivotTables to summarise large datasets
-  * Analysing sales by products, locations, customer groups and markets
-  * Using conditional formatting to highlight important results
-  * Using slicers and filters for interactive analysis
+* Creating and formatting **Excel Tables**
+* Filtering and sorting data
+* Working with structured references
+* Checking and correcting data types
+* Identifying hidden spaces and formatting issues
+* Applying conditional formatting to highlight important results
 
-* **Data visualisation**
+### 🧮 Excel Formulas & Functions
 
-  * Creating charts from analysed data
-  * Developing PivotCharts
-  * Presenting trends, comparisons and key findings visually
-  * Selecting appropriate visualisations to communicate insights clearly
+I used a range of Excel functions, including:
+
+* `SUM` – to calculate totals
+* `SUMIF` / `SUMIFS` – to calculate totals based on one or multiple criteria
+* `AVERAGE` / `AVERAGEIF` / `AVERAGEIFS` – to calculate averages
+* `DATE`, `MONTH` and `YEAR` – to work with date information
+* `UNIQUE` – to identify unique values
+* `VLOOKUP` – to retrieve related information
+* `SWITCH` – to categorise values based on conditions
+* `IF` / `IFS` – to apply conditional logic
+* `COUNT` / `COUNTA` – to count records
+* `LEFT`, `TEXTJOIN` and `CONCAT` – to manipulate and combine text values
+
+### 📊 Data Analysis
+
+I used Excel to:
+
+* Create **PivotTables**
+* Summarise large datasets
+* Analyse sales by product and location
+* Compare different customer groups
+* Segment customers by gender and generation
+* Analyse profitability
+* Use filters and slicers for interactive exploration
+
+### 📈 Data Visualisation
+
+I also developed experience in:
+
+* Creating charts from analysed data
+* Developing **PivotCharts**
+* Comparing categories visually
+* Highlighting patterns and outliers
+* Presenting analytical findings clearly
 
 ## 📈 Key Project Activities
 
-### Retail Sales Analysis
+### 🛍️ Retail Sales Analysis
 
-Worked with a retail sales dataset to create an Excel Table, sort customer data by age, and calculate commission totals and averages using Excel formulas.
+I worked with a retail sales dataset and converted the raw information into a structured Excel Table.
 
-### Customer Spending Analysis
+I then:
 
-Created summary tables to analyse customer spending by **gender, generation and product category**. `SUMIF` and `SUMIFS` were used to calculate spending totals, while conditional formatting helped identify the highest-spending customer segments.
+* Sorted customer data by age
+* Calculated total commission using `SUM`
+* Calculated average commission using `AVERAGE`
+* Filtered the dataset to investigate different customer groups
 
-### PivotTable Sales Analysis
+This helped me understand how basic Excel tools can quickly transform raw transactional data into useful business information.
 
-Used PivotTables to analyse bike sales across different countries, markets, age groups and genders. This allowed key findings to be identified, including the most profitable customer markets and differences in sales performance between countries.
+### 👥 Customer Spending Analysis
 
-### Sales Categorisation with SWITCH
+I created a summary table to investigate customer spending based on:
 
-Created a PivotTable to summarise sales by **county and product**, then used the `SWITCH` function to classify sales volumes as **High, Medium or Low**.
+* Gender
+* Generation
+* Product category
 
-### Charts and Visualisation
+I used `SUMIF` and `SUMIFS` to calculate sales totals across different customer segments.
 
-Created PivotCharts and other visualisations from sales data to communicate trends and comparisons more effectively. The project reinforced the importance of choosing appropriate charts for different types of data.
+I also applied conditional formatting to make it easier to identify which groups spent the most and compare purchasing behaviour visually.
+
+### 🚲 Bike Sales PivotTable Analysis
+
+I used PivotTables to analyse bike sales across:
+
+* Countries
+* Markets
+* Age groups
+* Gender
+* Product categories
+
+This allowed me to identify profitable customer segments and compare sales performance across different markets.
+
+### 🏷️ Sales Categorisation with SWITCH
+
+I analysed sales by **county and product** and used the `SWITCH` function to classify sales volumes into different performance categories:
+
+| Sales Volume | Category |
+|---|---|
+| Above 600 | 🔥 High |
+| 300–600 | 🟡 Medium |
+| Below 300 | 🔵 Low |
+
+This showed me how numerical data can be converted into simple business categories that are easier to interpret.
+
+### 📊 Charts & Visualisation
+
+I created PivotCharts and other visualisations to make trends, comparisons and key findings easier to understand.
+
+## 💡 Data Storytelling
+
+A key part of this project was learning how to move beyond spreadsheet calculations and use Excel to answer practical questions such as:
+
+* Which customer groups spend the most?
+* Which markets generate the highest sales?
+* Which products perform best?
+* Which customer segments are the most profitable?
+* How can large datasets be summarised efficiently?
+
+By combining formulas, PivotTables, filters and visualisations, I was able to transform raw data into **clear and actionable insights**.
 
 ## 🎯 Learning Outcomes
 
-This project strengthened my ability to use **Excel as a data analysis tool**, moving from basic data manipulation to more advanced analysis using formulas, PivotTables and visualisations.
+By completing this project, I developed practical experience in:
 
-It also developed practical skills in **data cleaning, data preparation, analytical thinking and communicating insights**, providing a foundation for further work with tools such as **Power BI, SQL and Tableau**.
-
-## 💻 Tools Used
-
-* Microsoft Excel
+* Excel data analysis
+* Data cleaning and organisation
+* Excel Tables
+* Excel formulas and functions
+* Conditional logic
+* Filtering and sorting
 * PivotTables
 * PivotCharts
-* Excel formulas and functions
-* Conditional Formatting
-* Filters and Sorting
 * Slicers
+* Customer segmentation
+* Retail and sales analysis
+* Data visualisation
+* Data storytelling
+
+## 💻 Tools I Used
+
+`Microsoft Excel` `PivotTables` `PivotCharts` `Excel Formulas` `Conditional Formatting` `Filters` `Slicers` `Data Analysis` `Data Visualisation`
 
 ## 📁 Project Contents
 
-This repository contains the Excel workbook and supporting materials from the **Week 1 Excel module of the Data Technician Bootcamp**.
+```text
+📦 Excel-Data-Analysis
+ ┣ 📊 Excel workbook
+ ┣ 📁 Supporting datasets
+ ┣ 📈 PivotTable exercises
+ ┣ 📉 PivotChart exercises
+ ┣ 🖼️ Analysis screenshots
+ ┗ 📄 README.md
+```
