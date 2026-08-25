@@ -87,6 +87,8 @@ I then:
 
 This helped me understand how basic Excel tools can quickly transform raw transactional data into useful business information.
 
+<img width="1152" height="252" alt="image" src="https://github.com/user-attachments/assets/c4678f2e-aee9-4049-b9a1-76146b932306" />
+
 ### 👥 Customer Spending Analysis
 
 I created a summary table to investigate customer spending based on:
@@ -98,6 +100,8 @@ I created a summary table to investigate customer spending based on:
 I used `SUMIF` and `SUMIFS` to calculate sales totals across different customer segments.
 
 I also applied conditional formatting to make it easier to identify which groups spent the most and compare purchasing behaviour visually.
+
+<img width="1149" height="279" alt="image" src="https://github.com/user-attachments/assets/b372b938-35b8-47d0-b7a1-7bd533a60216" />
 
 ### 🚲 Bike Sales PivotTable Analysis
 
@@ -111,6 +115,8 @@ I used PivotTables to analyse bike sales across:
 
 This allowed me to identify profitable customer segments and compare sales performance across different markets.
 
+<img width="625" height="558" alt="image" src="https://github.com/user-attachments/assets/43addfb7-dbf7-4d0e-9a56-cccd885bcc7e" />
+
 ### 🏷️ Sales Categorisation with SWITCH
 
 I analysed sales by **county and product** and used the `SWITCH` function to classify sales volumes into different performance categories:
@@ -123,9 +129,13 @@ I analysed sales by **county and product** and used the `SWITCH` function to cla
 
 This showed me how numerical data can be converted into simple business categories that are easier to interpret.
 
+<img width="1768" height="464" alt="image" src="https://github.com/user-attachments/assets/125c37e1-6032-4ad9-8c64-a18a6251335c" />
+
 ### 📊 Charts & Visualisation
 
 I created PivotCharts and other visualisations to make trends, comparisons and key findings easier to understand.
+
+<img width="610" height="535" alt="image" src="https://github.com/user-attachments/assets/c7770d57-f640-41fa-9506-ce635c8119dd" />
 
 ## 💡 Data Storytelling
 
